@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Mágico de Harry Potter</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="hp-icon">
+            <img src="./imagenes/icons8-harry-potter-240.png" alt="Icono de Harry Potter">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#gryffindor">Gryffindor</a></li>
+                <li><a href="#slytherin">Slytherin</a></li>
+                <li><a href="#hufflepuff">Hufflepuff</a></li>
+                <li><a href="#ravenclaw">Ravenclaw</a></li>
+                <li><a href="#professors">Profesores</a></li>
+                <li><a href="#" id="view-favorites">Ver mi lista de Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gryffindor" class="gryffindor-bg">
+            <h2>Gryffindor</h2>
+            <div id="card-Gryffindor"class="card-container"> </div>
+        </section>
+        
+
+        <section id="slytherin" class="slytherin-bg">
+            <h2>Slytherin</h2>
+            <div id="card-slytherin" class="card-container"> </div>
+        </section>
+        
+
+        <section id="hufflepuff" class="hufflepuff-bg">
+            <h2>Hufflepuff</h2>
+            <div class="card-container" id="card-hufflepuff"> </div>
+        </section>
+
+        <section id="ravenclaw" class="ravenclaw-bg">
+            <h2>Ravenclaw</h2>
+            <div class="card-container" id="card-ravenclaw"> </div>
+        </section>
+        
+
+        <section id="professors" class="professors-bg">
+            <h2>Profesores</h2>
+            <div class="card-container" id="card-professors"> </div>
+        </section>
+    </main>
+
+    <aside id="favorites-aside">
+        <h2>Mi Lista de Favoritos</h2>
+        <ul class="favorite-list">
+            </ul>
+    </aside>
+
+    <script src="./main.js"></script>
+</body>
+</html>
